@@ -5,3 +5,4 @@ where i stands for the entity under study (individual, state, ...), t is the tim
 e_it is the error term. Using OLS or other specification, b can be estimated.   
 To study the causal relationship, one can simulate the time of treatment (and the treated individuals) and estimate b for multiple times over random;y treated individuals.
 If the number of simulation is large enough, a distribution for b can be obtained. The last step is to check where the actual b falls in the simulated b distribution. If the actual b is statistically outside the distribution of simulated b, we can coclude that the treatment effect was indeed significant. 
+To use this script, you need to prepare your data in both long and wide formats. 

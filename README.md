@@ -1,5 +1,5 @@
 # Temporal-RI
-This is an implementation of Bertrand et al. (2003) temporal randomization inference in R. Read pages 20 and 22 in here: http://www.nber.org/papers/w8841.pdf 
+This is an implementation of Bertrand et al. (2003) temporal randomization inference in R. Read pages 20 through 22 in here: http://www.nber.org/papers/w8841.pdf 
 Bertrand et al. (2003) suggest a new approach in studying the causality in a field experimental setting. Let's say we have a model in the form: y_it = a_i + m_t + bT_it + e_it
 where i stands for the entity under study (individual, state, ...), t is the time of observation, a_i is the individual-specific effects, m_t is the time-fixed effects, b is the treatment effect to be estimated, T_it is the treatment and 
 e_it is the error term. 
